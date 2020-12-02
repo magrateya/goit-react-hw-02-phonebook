@@ -1,0 +1,17 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+}
+.nameLabel {
+  display: flex;
+  flex-direction: column;
+}
+.formBtn {
+  max-width: 100px;
+  padding: 5px 10px;
+}
+.nameLabel,
+input[name='name'] {
+  margin-bottom: 10px;
+}
