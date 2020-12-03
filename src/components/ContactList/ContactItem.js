@@ -2,9 +2,6 @@ import PropTypes from 'prop-types';
 import s from './ContactList.module.css';
 
 export default function ContactItem({ id, name, number, onDeleteContact }) {
-  // console.log(typeof onDeleteContact);
-  // console.log(id);
-
   return (
     <li className={s.contactItem}>
       <span>{name}</span>
